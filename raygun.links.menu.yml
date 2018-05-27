@@ -1,0 +1,5 @@
+raygun.admin:
+  title: 'Raygun.io Settings'
+  description: 'Configure Raygun.io integration.'
+  route_name: raygun.admin
+  parent: system.admin_config_development

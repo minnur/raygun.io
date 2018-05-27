@@ -1,0 +1,7 @@
+raygun.admin:
+  path: 'admin/config/development/raygun'
+  defaults:
+    _title: 'Raygun.io Settings'
+    _form: '\Drupal\raygun\Form\RaygunSettingsForm'
+  requirements:
+    _permission: 'administer raygun'

@@ -1,0 +1,15 @@
+{
+  "name": "drupal/raygun",
+  "description": "Raygun.io integration module to automatically send errors and exceptions.",
+  "type": "drupal-module",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "homepage": "https://www.drupal.org/project/raygun",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/raygun",
+    "source": "http://cgit.drupalcode.org/raygun"
+  },
+  "require": {
+    "mindscape/raygun4php": "1.*"
+  }
+}

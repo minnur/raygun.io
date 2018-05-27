@@ -1,0 +1,5 @@
+services:
+  raygun.send_error:
+    class: Drupal\raygun\EventSubscriber\SendError
+    tags:
+      - { name: event_subscriber }
